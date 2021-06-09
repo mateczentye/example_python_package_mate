@@ -13,3 +13,7 @@ To install
 ```bash
 pip install example_python_package_mate
 ```
+to make an install from this folder
+'''bash
+pip install -e .
+'''
