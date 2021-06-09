@@ -1,1 +1,2 @@
-from .core import my_name, multi
+from .core import my_name
+from .core import multi
