@@ -1,2 +1,2 @@
 from .core import my_name
-from .core import multip
+from .core import multi
