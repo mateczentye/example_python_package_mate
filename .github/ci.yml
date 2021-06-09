@@ -1,0 +1,14 @@
+name: Project Test
+on:
+  push:
+    branches:
+      - master
+    pull_request:
+      - master
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test with Pytest
+        run: pytest -vv
