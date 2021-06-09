@@ -1,13 +1,14 @@
+
 from setuptools import setup
 
 setup(
     name='example_python_package_mate',
     author='Mate',
-    author_email='mic24@kent.ac.uk',
+    version='0.0.1',
+    author_email='czentyemate@gmail.com',
     license='MIT',
     url='https://github.com/mateczentye/example_python_package_mate',
     description='magic happens here',
-    packages=["example_pythonpackage_mate"],
-    version='0.0.1'
+    packages=["example_python_package_mate"],
 
 )
