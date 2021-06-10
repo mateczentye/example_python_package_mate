@@ -1,3 +1,4 @@
+import pytest
 from example_python_package_mate import multi, my_name
 
 def test_multi_w_small_nums():
@@ -14,4 +15,8 @@ def test_name():
     correct_name = my_name("Mate")
     
     assert input_name == correct_name
-    
+
+products = [(2,3,6),(-1,55,-55),(3,-4,-12),(1,100,100)]    
+@pytest.mark.parametrize('a, b, product',products)
+def test_multi_param(a,b,product):
+    assert a * b == product
